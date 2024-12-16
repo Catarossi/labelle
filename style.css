@@ -14,7 +14,7 @@ body{
 }
 
 #perfil img{
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
     margin-top: 15px;
     border: 5px #ffff solid;
@@ -55,9 +55,11 @@ body{
 }
 
 footer{
+    height: 90px;
     display: flex;
-    margin-top: 20px;
+    margin: auto;
     width: 100vw;
     justify-content: center;
+    align-items: center;
     font-weight: 600;
 }
