@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/fundo-mobile.webp);
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perfil img{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 5px #ffff solid;
+}
+
+#perfil span{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bd89a9;
+}
+
+.linha{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.linha img{
+    width: 150px;
+    border-radius: 15%;
+    justify-content: space-between;
+}
+
+.linha a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bd89a9;
+}
+
+.text{
+    margin-top: 5px;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    width: 100vw;
+    justify-content: center;
+    font-weight: 600;
+}
